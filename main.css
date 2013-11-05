@@ -1,0 +1,80 @@
+
+
+
+
+
+/*****************class definitions***************/
+.app_bg{
+background:url(images/app_bg.jpg);
+}
+
+.app_button{
+}
+
+.logo{
+background:url(images/logo.png) no-repeat;
+max-width:310px;
+min-height:100px;
+margin:0 auto -25px auto;
+border-style:outset;
+}
+
+.app_footer{
+
+}
+
+.navigation{
+}
+
+/*Normal State*/
+.ui-btn{
+background-image: linear-gradient(bottom, rgb(168,76,10) 5%, rgb(214,143,88) 34%);
+background-image: -o-linear-gradient(bottom, rgb(168,76,10) 5%, rgb(214,143,88) 34%);
+background-image: -moz-linear-gradient(bottom, rgb(168,76,10) 5%, rgb(214,143,88) 34%);
+background-image: -webkit-linear-gradient(bottom, rgb(168,76,10) 5%, rgb(214,143,88) 34%);
+background-image: -ms-linear-gradient(bottom, rgb(168,76,10) 5%, rgb(214,143,88) 34%);
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.05, rgb(168,76,10)),
+	color-stop(0.34, rgb(214,143,88))
+);
+}
+
+/*Mouse Hover State*/
+.ui-btn-hover-c {
+background-image: linear-gradient(bottom, rgb(163,74,10) 5%, rgb(214,143,88) 75%);
+background-image: -o-linear-gradient(bottom, rgb(163,74,10) 5%, rgb(214,143,88) 75%);
+background-image: -moz-linear-gradient(bottom, rgb(163,74,10) 5%, rgb(214,143,88) 75%);
+background-image: -webkit-linear-gradient(bottom, rgb(163,74,10) 5%, rgb(214,143,88) 75%);
+background-image: -ms-linear-gradient(bottom, rgb(163,74,10) 5%, rgb(214,143,88) 75%);
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.05, rgb(163,74,10)),
+	color-stop(0.75, rgb(214,143,88))
+);
+}
+
+/*Pressed State*/
+.ui-btn-active{
+background-image: linear-gradient(top, rgb(199,130,69) 10%, rgb(168,84,20) 53%);
+background-image: -o-linear-gradient(top, rgb(199,130,69) 10%, rgb(168,84,20) 53%);
+background-image: -moz-linear-gradient(top, rgb(199,130,69) 10%, rgb(168,84,20) 53%);
+background-image: -webkit-linear-gradient(top, rgb(199,130,69) 10%, rgb(168,84,20) 53%);
+background-image: -ms-linear-gradient(top, rgb(199,130,69) 10%, rgb(168,84,20) 53%);
+
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.1, rgb(199,130,69)),
+	color-stop(0.53, rgb(168,84,20))
+);
+}
+
+.ui-navbar{
+}
+
